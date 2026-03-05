@@ -44,6 +44,7 @@ qa_data_pipeline/
 During testing, the framework detected **8 duplicate order-product combinations** in `fact_sales`, indicating an ETL loading issue where certain order lines were loaded twice. This was logged as a known bug with a threshold assertion.
 
 ## 🚀 How to Run
+
 ```bash
 # Install dependencies
 pip install pytest psycopg2-binary pytest-html pandas
@@ -57,4 +58,7 @@ HTML report is auto-generated at `reports/test_report.html`
 ## 📊 Test Results
 ```
 21 passed in 1.53s
+
+<img width="1919" height="911" alt="Screenshot 2026-03-05 145754" src="https://github.com/user-attachments/assets/e47b7cf7-e78a-4eb2-a600-45c722cfce38" />
+
 ```
